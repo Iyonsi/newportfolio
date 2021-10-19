@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService1Service } from 'src/app/_services/portfolioService1.service';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private HomePortfolioService: PortfolioService1Service) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { this.HomePortfolioService.getPortfolioData().subscribe((data :any)=>{console.log(data)});
   }
 
 }

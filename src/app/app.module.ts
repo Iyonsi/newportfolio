@@ -11,6 +11,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PortfolioService1Service } from './_services/portfolioService1.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,9 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot (appRoutes),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [PortfolioService1Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
