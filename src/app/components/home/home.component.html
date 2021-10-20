@@ -1,8 +1,18 @@
   <!-- ======= Hero Section ======= -->
+
   <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Iyonsi Israel</h1>
+
+
+    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100" >
+
+
+
+      <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">{{myBios.lastName}} {{myBios.firstName}}</span><br>Software Engineer</h1>
       <h2 class="align"><span >I create optimzed solutions to complex problems.</span></h2>
-      <a [routerLink]="['/about-me']" routerLinkActive="router-link-active" class="btn-about">About Me</a>
+      <a [routerLink]="['/contact']" routerLinkActive="router-link-active" class="btn-about">Hire Me</a>
+
     </div>
+<img src="../../../assets/img/iyonsi-image.png" class="image">
+    <svg class="blob"></svg>
+
   </section><!-- End Hero -->

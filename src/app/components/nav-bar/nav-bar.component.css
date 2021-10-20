@@ -27,7 +27,7 @@
       font-size: 28px;
     }
   }
-  
+
   /*--------------------------------------------------------------
   # Header Social Links
   --------------------------------------------------------------*/
@@ -45,12 +45,12 @@
   .header-social-links a:hover {
     color: #34b7a7;
   }
-  
+
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
   /**
-  * Desktop Navigation 
+  * Desktop Navigation
   */
   .navbar {
     padding: 0;
@@ -157,9 +157,9 @@
       left: -100%;
     }
   }
-  
+
   /**
-  * Mobile Navigation 
+  * Mobile Navigation
   */
   .mobile-nav-toggle {
     color: #222222;
@@ -172,12 +172,12 @@
   .mobile-nav-toggle.bi-x {
     color: #fff;
   }
-  
+
   @media (max-width: 991px) {
     .mobile-nav-toggle {
       display: block;
     }
-  
+
     .navbar ul {
       display: none;
     }
@@ -248,4 +248,3 @@
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
-  
