@@ -1,9 +1,4 @@
-/**
-* Template Name: Kelly - v4.6.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
 
 /*--------------------------------------------------------------
 # General
@@ -12,21 +7,21 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
   }
-  
+
   a {
     color: #34b7a7;
     text-decoration: none;
   }
-  
+
   a:hover {
     color: #51cdbe;
     text-decoration: none;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
   }
-  
+
   #main {
     margin-top: 50px;
   }
@@ -35,7 +30,7 @@ body {
       margin-top: 30px;
     }
   }
-  
+
   /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/
@@ -49,7 +44,7 @@ body {
     overflow: hidden;
     background: #fff;
   }
-  
+
   #preloader:before {
     content: "";
     position: fixed;
@@ -63,7 +58,7 @@ body {
     -webkit-animation: animate-preloader 1s linear infinite;
     animation: animate-preloader 1s linear infinite;
   }
-  
+
   @-webkit-keyframes animate-preloader {
     0% {
       transform: rotate(0deg);
@@ -72,7 +67,7 @@ body {
       transform: rotate(360deg);
     }
   }
-  
+
   @keyframes animate-preloader {
     0% {
       transform: rotate(0deg);
@@ -110,18 +105,18 @@ body {
     visibility: visible;
     opacity: 1;
   }
-  
+
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
   section {
     padding: 60px 0;
   }
-  
+
   .section-bg {
     background-color: #e7f8f6;
   }
-  
+
   .section-title {
     text-align: center;
     padding-bottom: 30px;
@@ -147,7 +142,7 @@ body {
   .section-title p {
     margin-bottom: 0;
   }
-  
+
   /*--------------------------------------------------------------
   # Cta
   --------------------------------------------------------------*/
@@ -194,5 +189,4 @@ body {
       justify-content: flex-end;
     }
   }
-  
-  
+

@@ -36,7 +36,7 @@
     margin-top: 40px;
   }
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #34b7a7;
+    background: #1CD7BB;
     color: #fff;
   }
   .contact .php-email-form {
@@ -86,7 +86,7 @@
     font-size: 14px;
   }
   .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-    border-color: #34b7a7;
+    border-color: #1CD7BB;
   }
   .contact .php-email-form input {
     height: 44px;
@@ -95,7 +95,7 @@
     padding: 10px 12px;
   }
   .contact .php-email-form button[type=submit] {
-    background: #34b7a7;
+    background: #1CD7BB;
     border: 0;
     padding: 10px 30px 12px 30px;
     color: #fff;
@@ -121,4 +121,3 @@
       transform: rotate(360deg);
     }
   }
-  

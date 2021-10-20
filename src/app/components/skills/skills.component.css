@@ -1,16 +1,19 @@
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-#skills {
+.wide {
 height: vh;
 width: 100%;
+align-items: center;
 }
 .skills .progress {
-    height: 60px;
+    height: 70px;
     display: block;
     background: none;
     border-radius: 0;
-    
+    background-size: cover;
+
+
   }
   .skills .progress .skill {
     padding: 10px 0;
@@ -33,5 +36,5 @@ width: 100%;
     height: 10px;
     transition: 0.9s;
     background-color: #34b7a7;
+    width: var(item[proficiency]);
   }
-  

@@ -26,7 +26,7 @@
   }
   .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #34b7a7;
+    background: #1CD7BB;
   }
   .portfolio #portfolio-flters li:last-child {
     margin-right: 0;
@@ -104,7 +104,7 @@
   .portfolio .portfolio-wrap:hover .portfolio-info {
     opacity: 1;
   }
-  
+
   /*--------------------------------------------------------------
   # Portfolio Details
   --------------------------------------------------------------*/
@@ -158,4 +158,3 @@
   .portfolio-details .portfolio-description p {
     padding: 0;
   }
-  
