@@ -36,5 +36,5 @@ align-items: center;
     height: 10px;
     transition: 0.9s;
     background-color: #34b7a7;
-    width: var(item[proficiency]);
+   
   }
